@@ -6,7 +6,7 @@ import cart from "@/app/assets/sidebar/cart.svg"
 const TopBar = () => {
   return (
     <>
-      <div className="flex justify-between py-4 px-10 font-semibold text-textColor bg-white">
+      <div className="flex justify-between py-4 px-[9%] font-semibold text-textColor bg-white ">
         <div className="left-item">
           <ul>
             <li className="flex gap-3">

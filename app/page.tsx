@@ -15,7 +15,7 @@ export default function Home() {
       <TopSearch />
       <div className="carousel px-[9%]">
         <div className="flex">
-          <div className="flex flex-col w-[22.3vw]">
+          <div className="flex flex-col w-[22.8vw]">
             {" "}
             <SideMenu />
           </div>
