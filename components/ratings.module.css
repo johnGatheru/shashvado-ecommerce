@@ -1,0 +1,15 @@
+.ratings {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    cursor: pointer;
+    color: #ccc;
+    font-size: 18px;
+    margin-right: 2px;
+  }
+  
+  .selected {
+    color: #f39c12; /* Change the color to your desired one */
+  }

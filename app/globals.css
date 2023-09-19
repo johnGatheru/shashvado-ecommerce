@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+:root {
+  --primary-color:#ff6b6b;
+  --secondary-color:#794afa;
+  --secondary-dark-color:#453c5c;
+  --white-color:#ffffff;
+  --light-bg-color:#f2f3f5;
+  --light-text-color:#7c899a;
+  --border-color:#e5e8ec;
+  --dark-color:#0a021c;
+
+  
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+*{
+  /* background-color: #ffffff; */
+  padding: 0px;
+  margin:0px;
+  
+}
+/* html{
+  background: #ffffff;
+} */
+.darker{
+  background-color: var(--dark-color);
+}
+.primarily{
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.dark-blue{
+  color: var(--secondary-color);
+}
+.secondary-blue{
+  background-color: var(--secondary-dark-color);
+}
+.borders{
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-right:1px solid var(--border-color);
+}
+.inner-div{
+  display: none;
+}
