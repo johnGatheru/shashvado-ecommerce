@@ -12,7 +12,7 @@ const Trending = () => {
   return (
     <div className="flex h-1/2 mb-4 mt-2">
       <div className="most-trending mr-2 border-red-950 rounded-md border p-6 w-1/5 min-w-[18vw]  bg-white hover:scale-[1.03] duration-500">
-        <div className="flex justify-center font-bold mb-4">Today's Offer</div>
+        <div className="flex justify-center font-bold mb-4">Today&#39;s Offer</div>
         {/* <Image className="hover:scale-105 duration-500 rounded-lg overflow-hidden" src={koti} width={200} height={400} alt="we are comming" /> */}
         <div className="h-1/3">
           <img
