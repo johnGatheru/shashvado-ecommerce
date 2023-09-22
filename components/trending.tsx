@@ -45,10 +45,10 @@ const Trending = () => {
           </button>
         </div>
       </div>
-      <div className="other-trending flex flex-wrap gap-4">
+      <div className="other-trending md:flex md:flex-wrap md:gap-4 gap-2 mt-2 md:mt-0 grid grid-cols-2 ">
         <Link href="/itemDetails" >
           <div
-          className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] "
+          className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 md:w-[200px] w-40 shadow-lg hover:shadow-gray-400 "
          
         >
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
@@ -70,14 +70,14 @@ const Trending = () => {
               <p className="text-xs line-through ">$102.88</p>
             </div>
 
-            <button className="text-xs bg-yellow-500 px-4 py-[6px] font-bold text-white rounded-md w-3/5 mt-2">
+            <button className="text-xs bg-yellow-500 md:px-4 py-[6px] font-bold text-white rounded-md w-4/5 md:w-3/5 mt-2">
               Buy Now
             </button>
           </div>
         </div>
         </Link>
        
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px]">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 md:w-[200px] w-40 shadow-lg hover:shadow-gray-400">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img
               src="/items/shoes.jpeg"
@@ -97,12 +97,12 @@ const Trending = () => {
               <p className="text-xs line-through ">$102.88</p>
             </div>
 
-            <button className="text-xs bg-yellow-500 px-4 py-[6px] font-bold text-white rounded-md w-3/5 mt-2">
+            <button className="text-xs bg-yellow-500 md:px-4 py-[6px] font-bold text-white rounded-md md:w-3/5 w-4/5 mt-2">
               Buy Now
             </button>
           </div>
         </div>{" "}
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] ">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400 ">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img
               src="/items/shoes2.jpeg"
@@ -127,7 +127,7 @@ const Trending = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px]">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img src="/items/koti.jpeg" alt="" width={200} height={300} />
           </div>
@@ -146,7 +146,7 @@ const Trending = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px]">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img src="/items/koti.jpeg" alt="" width={200} height={300} />
           </div>
@@ -165,7 +165,7 @@ const Trending = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px]">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img src="/items/koti.jpeg" alt="" width={200} height={300} />
           </div>
@@ -184,7 +184,7 @@ const Trending = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px]">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img src="/items/koti.jpeg" alt="" width={200} height={300} />
           </div>
@@ -203,7 +203,7 @@ const Trending = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px]">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img src="/items/koti.jpeg" alt="" width={200} height={300} />
           </div>
