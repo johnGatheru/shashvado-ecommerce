@@ -102,7 +102,7 @@ const Trending = () => {
             </button>
           </div>
         </div>{" "}
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400 ">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 md:w-[200px] w-40 shadow-lg hover:shadow-gray-400 ">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img
               src="/items/shoes2.jpeg"
@@ -127,7 +127,7 @@ const Trending = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 md:w-[200px] w-40 shadow-lg hover:shadow-gray-400">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img src="/items/koti.jpeg" alt="" width={200} height={300} />
           </div>
@@ -146,7 +146,7 @@ const Trending = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 md:w-[200px] w-40 shadow-lg hover:shadow-gray-400">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img src="/items/koti.jpeg" alt="" width={200} height={300} />
           </div>
@@ -165,7 +165,7 @@ const Trending = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 md:w-[200px] w-40 shadow-lg hover:shadow-gray-400">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img src="/items/koti.jpeg" alt="" width={200} height={300} />
           </div>
@@ -184,7 +184,7 @@ const Trending = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 md:w-[200px] w-40 shadow-lg hover:shadow-gray-400">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img src="/items/koti.jpeg" alt="" width={200} height={300} />
           </div>
@@ -203,7 +203,7 @@ const Trending = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 w-[200px] w-40 shadow-lg hover:shadow-gray-400">
+        <div className="flex flex-col p-2 gap-2 hover:cursor-pointer bg-white h-64 rounded-md hover:scale-105 duration-500 md:w-[200px] w-40 shadow-lg hover:shadow-gray-400">
           <div className="image rounded-md overflow-hidden hover:scale-105 duration-500 w-full h-1/2">
             <img src="/items/koti.jpeg" alt="" width={200} height={300} />
           </div>
