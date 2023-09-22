@@ -29,7 +29,7 @@ const TopSearch = () => {
           <div className="flex">
         
             
-            <button className="primarily md:h-[41px] py-1 px-4 rounded-r-xl">Search</button>
+            <button className="bg-yellow-500 md:h-[41px] py-1 px-4 rounded-r-xl text-white font-bold">Search</button>
           </div>
         </div>
       </div>
