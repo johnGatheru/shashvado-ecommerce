@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Ratings from "@/components/ratings";
 
-const pageDetails = () => {
+const PageDetails = () => {
   const [movieRating, setMovieRating] = useState(3);
 
   const handleRatingChange = (newRating: number) => {
@@ -73,4 +73,4 @@ const pageDetails = () => {
   );
 };
 
-export default pageDetails;
+export default PageDetails;
