@@ -5,7 +5,7 @@ import SearchIcon from "../app/assets/search.svg"
 const TopSearch = () => {
   return (
     <>
-      <div className="secondary-blue w-full md:px-[9%] px-[2%] h-1/3 overflow-hidden flex justify-between relative">
+      <div className="bg-[#813588] w-full md:px-[9%] px-[2%] h-1/3 overflow-hidden flex justify-between relative">
         <div className="left-search flex-col primarily px-4 py-2 w-1/6 rounded-t-xl mt-4 hidden md:block">
           <h3 className="font-semibold">All Categories</h3>
           <p className="text-xs"> Available categories</p>
