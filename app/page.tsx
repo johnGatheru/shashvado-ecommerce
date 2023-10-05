@@ -124,7 +124,7 @@ export default function Home() {
             <MenDisplay />
           </div>
         </div>
-        <div className="footer md:px-[9%] px-[2%] bg-black py-4 mt-3 text-white">
+        <div className="footer md:px-[9%] px-[2%] bg-[#813588] py-4 mt-3 text-white">
           footer comming soon 
         </div>
       </div>
